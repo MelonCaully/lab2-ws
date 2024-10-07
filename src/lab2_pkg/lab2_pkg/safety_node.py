@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
@@ -8,7 +9,6 @@ import numpy as np
 class SafetyNode(Node):
     def __init__(self):
         super().__init__('safet_node')
-
          # Initial vehicle speed
         self.speed = 0.0
          # Threshold for braking (in seconds)

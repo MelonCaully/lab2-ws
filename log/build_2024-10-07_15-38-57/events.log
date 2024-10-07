@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (lab2_pkg) JobQueued: {'identifier': 'lab2_pkg', 'dependencies': OrderedDict()}
+[0.001799] (lab2_pkg) JobStarted: {'identifier': 'lab2_pkg'}
+[0.098781] (-) TimerEvent: {}
+[0.199435] (-) TimerEvent: {}
+[0.299971] (-) TimerEvent: {}
+[0.400614] (-) TimerEvent: {}
+[0.501252] (-) TimerEvent: {}
+[0.601926] (-) TimerEvent: {}
+[0.702679] (-) TimerEvent: {}
+[0.803217] (-) TimerEvent: {}
+[0.903769] (-) TimerEvent: {}
+[1.004321] (-) TimerEvent: {}
+[1.104872] (-) TimerEvent: {}
+[1.205378] (-) TimerEvent: {}
+[1.307889] (-) TimerEvent: {}
+[1.408554] (-) TimerEvent: {}
+[1.451893] (lab2_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lab2_pkg', 'build', '--build-base', '/home/meloncaully/lab2_ws/build/lab2_pkg/build', 'install', '--record', '/home/meloncaully/lab2_ws/build/lab2_pkg/install.log', '--install-scripts', '$base/lib/lab2_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/meloncaully/lab2_ws/src/lab2_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'meloncaully', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/meloncaully', 'OLDPWD': '/home/meloncaully', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/meloncaully/lab2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'meloncaully', 'NAME': 'DESKTOP-R3HGHPM', 'WSL_INTEROP': '/run/WSL/2044_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/meloncaully/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/ActiveTcl/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/MinGW/bin:/mnt/c/Program Files/Go/bin:/mnt/c/FPC/3.2.2/bin/i386-Win32:/mnt/c/Users/Malone Ingham/.cargo/bin:/mnt/c/Users/Malone Ingham/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Malone Ingham/AppData/Roaming/npm:/mnt/c/Users/Malone Ingham/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Malone Ingham/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Malone Ingham/go/bin:/mnt/c/ghcup/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/meloncaully/lab2_ws/install/lab2_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/meloncaully/lab2_ws/build/lab2_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/meloncaully/lab2_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages:/home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[1.508868] (-) TimerEvent: {}
+[1.609568] (-) TimerEvent: {}
+[1.720762] (-) TimerEvent: {}
+[1.821334] (-) TimerEvent: {}
+[1.921891] (-) TimerEvent: {}
+[2.010010] (lab2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.011862] (lab2_pkg) StdoutLine: {'line': b'writing ../../build/lab2_pkg/lab2_pkg.egg-info/PKG-INFO\n'}
+[2.014030] (lab2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/lab2_pkg/lab2_pkg.egg-info/dependency_links.txt\n'}
+[2.014307] (lab2_pkg) StdoutLine: {'line': b'writing entry points to ../../build/lab2_pkg/lab2_pkg.egg-info/entry_points.txt\n'}
+[2.014473] (lab2_pkg) StdoutLine: {'line': b'writing requirements to ../../build/lab2_pkg/lab2_pkg.egg-info/requires.txt\n'}
+[2.014629] (lab2_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/lab2_pkg/lab2_pkg.egg-info/top_level.txt\n'}
+[2.022092] (-) TimerEvent: {}
+[2.090202] (lab2_pkg) StdoutLine: {'line': b"reading manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'\n"}
+[2.091874] (lab2_pkg) StdoutLine: {'line': b"writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'\n"}
+[2.092626] (lab2_pkg) StdoutLine: {'line': b'running build\n'}
+[2.092794] (lab2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.092976] (lab2_pkg) StdoutLine: {'line': b'copying lab2_pkg/safety_node.py -> /home/meloncaully/lab2_ws/build/lab2_pkg/build/lib/lab2_pkg\n'}
+[2.095005] (lab2_pkg) StdoutLine: {'line': b'running install\n'}
+[2.095306] (lab2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.097132] (lab2_pkg) StdoutLine: {'line': b'copying /home/meloncaully/lab2_ws/build/lab2_pkg/build/lib/lab2_pkg/safety_node.py -> /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg\n'}
+[2.098217] (lab2_pkg) StdoutLine: {'line': b'byte-compiling /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg/safety_node.py to safety_node.cpython-38.pyc\n'}
+[2.101973] (lab2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.102413] (lab2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.105796] (lab2_pkg) StdoutLine: {'line': b"removing '/home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.106351] (lab2_pkg) StdoutLine: {'line': b'Copying ../../build/lab2_pkg/lab2_pkg.egg-info to /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg-0.0.0-py3.8.egg-info\n'}
+[2.108999] (lab2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.122736] (-) TimerEvent: {}
+[2.146892] (lab2_pkg) StdoutLine: {'line': b'Installing safety_node script to /home/meloncaully/lab2_ws/install/lab2_pkg/lib/lab2_pkg\n'}
+[2.147410] (lab2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/meloncaully/lab2_ws/build/lab2_pkg/install.log'\n"}
+[2.201063] (lab2_pkg) CommandEnded: {'returncode': 0}
+[2.222923] (-) TimerEvent: {}
+[2.226425] (lab2_pkg) JobEnded: {'identifier': 'lab2_pkg', 'rc': 0}
+[2.227981] (-) EventReactorShutdown: {}
