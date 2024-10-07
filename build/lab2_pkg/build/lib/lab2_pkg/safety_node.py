@@ -9,7 +9,6 @@ import numpy as np
 class SafetyNode(Node):
     def __init__(self):
         super().__init__('safet_node')
-
          # Initial vehicle speed
         self.speed = 0.0
          # Threshold for braking (in seconds)
@@ -64,7 +63,7 @@ class SafetyNode(Node):
         self.drive_pub.publish(drive_msg)
 
 def main(args=None):
-    rclpy.init
+    rclpy.init(args=args)
     node = SafetyNode()
     rclpy.spin(node)
     node.destroy_node

@@ -1,0 +1,24 @@
+[1.523s] Invoking command in '/home/meloncaully/lab2_ws/src/lab2_pkg': PYTHONPATH=/home/meloncaully/lab2_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/meloncaully/lab2_ws/build/lab2_pkg/build install --record /home/meloncaully/lab2_ws/build/lab2_pkg/install.log --install-scripts $base/lib/lab2_pkg --single-version-externally-managed install_data
+[2.051s] running egg_info
+[2.053s] writing ../../build/lab2_pkg/lab2_pkg.egg-info/PKG-INFO
+[2.055s] writing dependency_links to ../../build/lab2_pkg/lab2_pkg.egg-info/dependency_links.txt
+[2.056s] writing entry points to ../../build/lab2_pkg/lab2_pkg.egg-info/entry_points.txt
+[2.057s] writing requirements to ../../build/lab2_pkg/lab2_pkg.egg-info/requires.txt
+[2.058s] writing top-level names to ../../build/lab2_pkg/lab2_pkg.egg-info/top_level.txt
+[2.133s] reading manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[2.135s] writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[2.139s] running build
+[2.139s] running build_py
+[2.140s] copying lab2_pkg/safety_node.py -> /home/meloncaully/lab2_ws/build/lab2_pkg/build/lib/lab2_pkg
+[2.142s] running install
+[2.145s] running install_lib
+[2.147s] copying /home/meloncaully/lab2_ws/build/lab2_pkg/build/lib/lab2_pkg/safety_node.py -> /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg
+[2.150s] byte-compiling /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg/safety_node.py to safety_node.cpython-38.pyc
+[2.155s] running install_data
+[2.156s] running install_egg_info
+[2.160s] removing '/home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.167s] Copying ../../build/lab2_pkg/lab2_pkg.egg-info to /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg-0.0.0-py3.8.egg-info
+[2.169s] running install_scripts
+[2.203s] Installing safety_node script to /home/meloncaully/lab2_ws/install/lab2_pkg/lib/lab2_pkg
+[2.205s] writing list of installed files to '/home/meloncaully/lab2_ws/build/lab2_pkg/install.log'
+[2.258s] Invoked command in '/home/meloncaully/lab2_ws/src/lab2_pkg' returned '0': PYTHONPATH=/home/meloncaully/lab2_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/meloncaully/lab2_ws/build/lab2_pkg/build install --record /home/meloncaully/lab2_ws/build/lab2_pkg/install.log --install-scripts $base/lib/lab2_pkg --single-version-externally-managed install_data

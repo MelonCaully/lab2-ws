@@ -63,7 +63,7 @@ class SafetyNode(Node):
         self.drive_pub.publish(drive_msg)
 
 def main(args=None):
-    rclpy.init
+    rclpy.init(args=args)
     node = SafetyNode()
     rclpy.spin(node)
     node.destroy_node
