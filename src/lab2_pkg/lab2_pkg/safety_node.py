@@ -13,6 +13,8 @@ class SafetyNode(Node):
         self.speed = 0.0
          # Threshold for braking (in seconds)
         self.threshhold = 0.5
+         # Angle range for detecting imminent obstacles (consider objects in front)
+        self.front_angle_range = np.deg2rad(45)
          # Store previous range measurements for range rate calculation
         self.prev_ranges = None
 
@@ -31,9 +33,17 @@ class SafetyNode(Node):
          # Extract range and angle information
         ranges = np.array(scan_msg.ranges)
         angles = np.linspace(scan_msg.angle_min, scan_msg.angle_max, len(ranges))
+         # Filter out NaNs and infs
+        valid = np.isfinite(ranges)
+        ranges = ranges[valid]
+        angles = angles[valid]
+         # Restrict to front angles
+        front_filter = np.abs(angles) <= self.front_angle_range
+        ranges = ranges[front_filter]
+        angles = angles[front_filter]
 
-         # Skip if no valid ranges
-        if len(ranges) == 0 or np.isnan(ranges).all():
+         # If no valid range data, skip
+        if len(ranges) == 0:
             return
         
          # Use vehicle's velocity and scan angles to calculate range rate
