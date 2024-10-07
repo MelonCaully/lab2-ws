@@ -1,0 +1,33 @@
+[1.883s] Invoking command in '/home/meloncaully/lab2_ws/src/lab2_pkg': PYTHONPATH=/home/meloncaully/lab2_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/meloncaully/lab2_ws/build/lab2_pkg/build install --record /home/meloncaully/lab2_ws/build/lab2_pkg/install.log --install-scripts $base/lib/lab2_pkg --single-version-externally-managed install_data
+[2.310s] running egg_info
+[2.312s] creating ../../build/lab2_pkg/lab2_pkg.egg-info
+[2.313s] writing ../../build/lab2_pkg/lab2_pkg.egg-info/PKG-INFO
+[2.315s] writing dependency_links to ../../build/lab2_pkg/lab2_pkg.egg-info/dependency_links.txt
+[2.316s] writing entry points to ../../build/lab2_pkg/lab2_pkg.egg-info/entry_points.txt
+[2.317s] writing requirements to ../../build/lab2_pkg/lab2_pkg.egg-info/requires.txt
+[2.318s] writing top-level names to ../../build/lab2_pkg/lab2_pkg.egg-info/top_level.txt
+[2.343s] writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[2.421s] reading manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[2.423s] writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[2.424s] running build
+[2.424s] running build_py
+[2.425s] creating /home/meloncaully/lab2_ws/build/lab2_pkg/build
+[2.425s] creating /home/meloncaully/lab2_ws/build/lab2_pkg/build/lib
+[2.426s] creating /home/meloncaully/lab2_ws/build/lab2_pkg/build/lib/lab2_pkg
+[2.426s] copying lab2_pkg/__init__.py -> /home/meloncaully/lab2_ws/build/lab2_pkg/build/lib/lab2_pkg
+[2.427s] running install
+[2.429s] running install_lib
+[2.432s] creating /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg
+[2.433s] copying /home/meloncaully/lab2_ws/build/lab2_pkg/build/lib/lab2_pkg/__init__.py -> /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg
+[2.434s] byte-compiling /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg/__init__.py to __init__.cpython-38.pyc
+[2.437s] running install_data
+[2.438s] creating /home/meloncaully/lab2_ws/install/lab2_pkg/share/ament_index
+[2.438s] creating /home/meloncaully/lab2_ws/install/lab2_pkg/share/ament_index/resource_index
+[2.439s] creating /home/meloncaully/lab2_ws/install/lab2_pkg/share/ament_index/resource_index/packages
+[2.439s] copying resource/lab2_pkg -> /home/meloncaully/lab2_ws/install/lab2_pkg/share/ament_index/resource_index/packages
+[2.440s] copying package.xml -> /home/meloncaully/lab2_ws/install/lab2_pkg/share/lab2_pkg
+[2.440s] running install_egg_info
+[2.444s] Copying ../../build/lab2_pkg/lab2_pkg.egg-info to /home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages/lab2_pkg-0.0.0-py3.8.egg-info
+[2.447s] running install_scripts
+[2.490s] writing list of installed files to '/home/meloncaully/lab2_ws/build/lab2_pkg/install.log'
+[2.543s] Invoked command in '/home/meloncaully/lab2_ws/src/lab2_pkg' returned '0': PYTHONPATH=/home/meloncaully/lab2_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/meloncaully/lab2_ws/install/lab2_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/meloncaully/lab2_ws/build/lab2_pkg/build install --record /home/meloncaully/lab2_ws/build/lab2_pkg/install.log --install-scripts $base/lib/lab2_pkg --single-version-externally-managed install_data
